@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: cluster-playrole-vtg-location
+  description: Location to import all cluster-playrole-vtg catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
